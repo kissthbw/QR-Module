@@ -1,0 +1,180 @@
+{
+	vacunado: {
+
+		numeroInstalacion : Integer
+		idTableta : Integer
+		idOrigenRegistro : Integer
+		idUsuarioDireccionVac : String
+		idUsuarioVac : String
+		idVacunaccion : String
+		idVacunadoVac : Integer
+		idDireccionVac : Integer
+		idDispositivoVac : String
+		certificadoNacimiento : String
+		correo : String
+		curp : String
+		fechaAutorizacion : Timestamp
+		estadoValidacion : Integer
+		fechaNacimiento : Date
+		fechaRegistroApp : Timestamp
+		gemelo : Boolean
+		nombre : String
+		primerApellido : String
+		rfc : String
+		segundoApellido : String
+		sexo : String
+		afiliacionesVacunados : List<AfiliacionesVacunado>
+			{
+				numeroAfiliacion : String
+				numeroExpediente : String
+				idInstitucion : Integer
+			}
+			
+		bitVacunasNoAplicacions : List<BitVacunasNoAplicacion>
+			{
+				dosis : Integer
+				fechaConsignacionApp : Date
+				idBitVacunasNoAplicacion : Integer
+				idClues : Integer
+				idEtapa : Integer
+				idVacunador : Integer
+				idMotivo : Integer
+				idVacuna : Integer
+			}
+		contraindicaciones : List<Contraindicacione>
+			{
+				fechaFin : Date
+				idContraindicacion : Integer
+				id_agrupacion :
+				id_pregunta :
+			}
+		nfcs : List<Nfc>
+			{
+				fechaActualizacion : Timestamp
+				fechaAsignacion : Timestamp
+				fechaInactiva : Timestamp
+				idChip : String
+				idNfc : Integer
+				idEstatus : Integer
+			}
+		relResponsableVacunados : List<RelResponsableVacunado>
+			{
+				idParentesco : Integer
+				idTableta : Integer
+				numeroInstalacion :
+				correo : String
+				curp : String
+				estadoValidacion : Integer
+				fechaAutorizacion : Timestamp
+				fechaNacimiento : Date
+				fechaRegistro : Timestamp
+				fechaRegistroApp : Timestamp
+				fechaUltimoMovimiento : Timestamp
+				idOrigenRegistro : Integer
+				idResponsab
+				leVacunaccion : String
+				nombre : String
+				primerApellido : String
+				rfc : String
+				segundoApellido : String
+				sexo : String
+				relResponsableContactos : List<RelResponsableContacto>
+					{
+						numeroInstalacionTel : Integer
+						idTabletaTel : Integer
+						idDispositivoVac : String
+						idUsuarioVac : String
+						telefono : Telefono
+							{
+								idTipo : String
+								numero : BigDecimal
+								idOperador : Integer
+							}
+					}
+				idEstado : Integer
+				idNacionalidad : Integer
+				
+			}
+		relVacunadoContactos : List<RelVacunadoContacto>
+			{
+						numeroInstalacionTel : Integer
+						idTabletaTel : Integer
+						idDispositivoVac : String
+						idUsuarioVac : String
+						telefono : Telefono
+							{
+								idTipo : String
+								numero : BigDecimal
+								idOperador : Integer
+							}
+			}
+		restricciones : List<Restriccione>
+			{
+				fechaFin : Date
+				agrupador : String
+				idPregunta : Integer
+			}
+		idClues : Integer
+		idEstadoNacimiento : Integer
+		idEstatus : Integer
+		factoresRiesgos : List<CatFactoresRiesgo>
+			{
+				idFactorRiesgo ; Integer
+			}
+		idNacionalidad : Integer
+		idTipoSangre : Integer
+		direccione : Direccion
+			{
+				cp : String
+				entreCalle1 : String
+				entreCalle2 : String
+				estadoValidacion : Integer
+				fechaAutorizacion : Timestamp
+				idDireccionVac : Integer
+				idDispositivoVac : Integer
+				idOrigenRegistro : Integer
+				idUsuarioVac : String
+				nExterior : String
+				nInterior : String
+				nombreAsentamiento : String
+				nombreVialidad : String
+				referencia : String
+				idAgeb : Integer
+				idEstado : Integer
+				idLocalidad : Integer
+				idManzana : Integer
+				idMunicipio : Integer
+				idTipoAsentamiento : Integer
+				idTipoVialidad : Integer
+			}
+		idUsuario : Integer
+		vacunadosUnicos : List<VacunadosUnico>
+			{
+			idVacunado : Integer
+			numeroInstalacion : Integer
+			idTableta : Integer
+			}
+		vacunadosVacunas : List<VacunadosVacuna>
+			{
+				dosis : Integer
+				estadoValidacion : Integer
+				fechaAplicacion : Date
+				fechaAutorizacion : Date
+				fechaConsignacionApp : Date
+				fechaExpiracion : Date
+				idDispositivoVac : String
+				idOrigenRegistro : Integer
+				idUsuarioVac : String
+				idVacunadoVacunaVac : Integer
+				lote : String
+				origenAplicacion : String
+				vacunaHistorica : Boolean
+				idClues : Integer
+				idColorAplicacion : Integer
+				idEtapa : Integer
+				idVacuna : Integer
+				idEquivalencia : Integer
+			}
+			
+	}
+}

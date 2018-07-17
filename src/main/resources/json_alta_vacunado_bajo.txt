@@ -1,0 +1,26 @@
+{
+  "vacunado": {
+    "numeroInstalacion": 1,
+    "idTableta": 1,
+    "idOrigenRegistro": 1,
+    "idUsuarioDireccionVac": "String",
+    "idUsuarioVac": "String",
+    "idVacunaccion": "String",
+    "idVacunadoVac": 1,
+    "idDireccionVac": 1,
+    "idDispositivoVac": "String",
+    "certificadoNacimiento": "String",
+    "correo": "String",
+    "curp": "String",
+    "fechaAutorizacion": "Timestamp",
+    "estadoValidacion": 1,
+    "fechaNacimiento": "Date",
+    "fechaRegistroApp": "Timestamp",
+    "gemelo": "Boolean",
+    "nombre": "String",
+    "primerApellido": "String",
+    "rfc": "String",
+    "segundoApellido": "String",
+    "sexo": "String"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "vacunado": {
+    "numeroInstalacion": 1,
+    "idTableta": 1,
+    "idOrigenRegistro": 1,
+    "idUsuarioDireccionVac": "String",
+    "idUsuarioVac": "String",
+    "idVacunaccion": "String",
+    "idVacunadoVac": 1,
+    "idDireccionVac": 1,
+    "idDispositivoVac": "String",
+    "certificadoNacimiento": "String",
+    "correo": "String",
+    "curp": "String",
+    "fechaAutorizacion": "Timestamp",
+    "estadoValidacion": 1,
+    "fechaNacimiento": "Date",
+    "fechaRegistroApp": "Timestamp",
+    "gemelo": "Boolean",
+    "nombre": "String",
+    "primerApellido": "String",
+    "rfc": "String",
+    "segundoApellido": "String",
+    "sexo": "String",
+    "afiliacionesVacunados": {
+      "numeroAfiliacion": "String",
+      "numeroExpediente": "String",
+      "idInstitucion": 1
+    },
+    "bitVacunasNoAplicacions": {
+      "dosis": 1,
+      "fechaConsignacionApp": "Date",
+      "idBitVacunasNoAplicacion": 1,
+      "idClues": 1,
+      "idEtapa": 1,
+      "idVacunador": 1,
+      "idMotivo": 1,
+      "idVacuna": 1
+    },
+    "contraindicaciones": {
+      "fechaFin": "Date",
+      "idContraindicacion": 1,
+      "id_agrupacion": 1,
+      "id_pregunta": 1
+    },
+    "nfcs": {
+      "fechaActualizacion": "Timestamp",
+      "fechaAsignacion": "Timestamp",
+      "fechaInactiva": "Timestamp",
+      "idChip": "String",
+      "idNfc": 1,
+      "idEstatus": 1
+    },
+    "relResponsableVacunados": {
+      "idParentesco": 1,
+      "idTableta": 1,
+      "numeroInstalacion": 1,
+      "correo": "String",
+      "curp": "String",
+      "estadoValidacion": 1,
+      "fechaAutorizacion": "Timestamp",
+      "fechaNacimiento": "Date",
+      "fechaRegistro": "Timestamp",
+      "fechaRegistroApp": "Timestamp",
+      "fechaUltimoMovimiento": "Timestamp",
+      "idOrigenRegistro": 1,
+      "idResponsab": 1,
+      "leVacunaccion": "String",
+      "nombre": "String",
+      "primerApellido": "String",
+      "rfc": "String",
+      "segundoApellido": "String",
+      "sexo": "String",
+      "relResponsableContactos": {
+        "numeroInstalacionTel": 1,
+        "idTabletaTel": 1,
+        "idDispositivoVac": "String",
+        "idUsuarioVac": "String",
+        "telefono": {
+          "idTipo": "String",
+          "numero": "BigDecimal",
+          "idOperador": 1
+        }
+      },
+      "idEstado": 1,
+      "idNacionalidad": 1
+    },
+    "relVacunadoContactos": {
+      "numeroInstalacionTel": 1,
+      "idTabletaTel": 1,
+      "idDispositivoVac": "String",
+      "idUsuarioVac": "String",
+      "telefono": {
+        "idTipo": "String",
+        "numero": "BigDecimal",
+        "idOperador": 1
+      }
+    },
+    "restricciones": {
+      "fechaFin": "Date",
+      "agrupador": "String",
+      "idPregunta": 1
+    },
+    "idClues": 1,
+    "idEstadoNacimiento": 1,
+    "idEstatus": 1,
+    "factoresRiesgos": {
+      "idFactorRiesgo": 1
+    },
+    "idNacionalidad": 1,
+    "idTipoSangre": 1,
+    "direccione": {
+      "cp": "String",
+      "entreCalle1": "String",
+      "entreCalle2": "String",
+      "estadoValidacion": 1,
+      "fechaAutorizacion": "Timestamp",
+      "idDireccionVac": 1,
+      "idDispositivoVac": 1,
+      "idOrigenRegistro": 1,
+      "idUsuarioVac": "String",
+      "nExterior": "String",
+      "nInterior": "String",
+      "nombreAsentamiento": "String",
+      "nombreVialidad": "String",
+      "referencia": "String",
+      "idAgeb": 1,
+      "idEstado": 1,
+      "idLocalidad": 1,
+      "idManzana": 1,
+      "idMunicipio": 1,
+      "idTipoAsentamiento": 1,
+      "idTipoVialidad": 1
+    },
+    "idUsuario": 1,
+    "vacunadosUnicos": {
+      "idVacunado": 1,
+      "numeroInstalacion": 1,
+      "idTableta": 1
+    },
+    "vacunadosVacunas": {
+      "dosis": 1,
+      "estadoValidacion": 1,
+      "fechaAplicacion": "Date",
+      "fechaAutorizacion": "Date",
+      "fechaConsignacionApp": "Date",
+      "fechaExpiracion": "Date",
+      "idDispositivoVac": "String",
+      "idOrigenRegistro": 1,
+      "idUsuarioVac": "String",
+      "idVacunadoVacunaVac": 1,
+      "lote": "String",
+      "origenAplicacion": "String",
+      "vacunaHistorica": "Boolean",
+      "idClues": 1,
+      "idColorAplicacion": 1,
+      "idEtapa": 1,
+      "idVacuna": 1,
+      "idEquivalencia": 1
+    }
+  }
+}
